@@ -22,7 +22,7 @@ public class MyUtil {
 	static int getValue(String msg, int min, int max) {
 		System.out.printf("[ %d ~ %d ] 중에서 ", min, max);
 		System.out.println(msg + ">> ");
-		int num = -1;
+		int num = 100;
 		try {
 			num = sc.nextInt();
 			if (num < min || num > max) {
